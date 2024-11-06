@@ -1,0 +1,9 @@
+opencv-python-headless
+yolov5==6.0  # or the version you're using; YOLOv5 often requires cloning the repository
+deep_sort_realtime
+detectron2==0.6  # specify version compatible with your CUDA version
+face_recognition
+numpy
+Pillow
+matplotlib  # if needed for plotting on the map
+networkx  # for graph-based calculations
