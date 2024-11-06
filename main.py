@@ -1,7 +1,8 @@
 import time
-from eye_module import EYE  # Assuming EYE module saved as eye_module.py
-from graph_module import GraphModule  # Assuming Graph module saved as graph_module.py
-from feed_module import FeedModule  # Assuming Feed module saved as feed_module.py
+# Importing the necessary modules from the 'module' folder
+from module.eye_module import EyeModule
+from module.feed_module import FeedModule
+from module.graph_module import GraphModule
 
 class IRIS:
     def __init__(self, camera_config, graph_config, map_file):
